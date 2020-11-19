@@ -5,7 +5,7 @@ This project is part of the Udacity Azure ML Nanodegree.n this project, I build 
 using the Python SDK and hyperdrive optimization and a provided custom Scikit-learn model. This model is then compared to an Azure AutoML run.
 
 The figure below shows the main steps in creating and optimizing a machine learning pipeline:
-[Main Steps](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/creating-and-optimizing-an-ml-pipeline.png)
+![Main Steps](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/creating-and-optimizing-an-ml-pipeline.png)
 
 
 ## Summary
@@ -79,38 +79,38 @@ The Bandit early termination policy was used in this project. Based on the slack
 
 ### HyperDrive model details and visualization
 
-[hd1](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/hd1.png)
+![hd1](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/hd1.png)
 
-[hd2](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/hd2.png)
+![hd2](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/hd2.png)
 
-[hd4](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/hd4.png)
+![hd4](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/hd4.png)
 
-[hd5](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/hd5.png)
+![hd5](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/hd5.png)
 
-[hd6](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/hd6.png)
+![hd6](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/hd6.png)
 
 ## AutoML
-[Azure ML in image]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/ml_in_one_image.png)
+![Azure ML in image]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/ml_in_one_image.png)
 
-[AutoML concept](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/automl-concept.png)
+![AutoML concept](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/automl-concept.png)
 
 The process of machine learning model development is automated in AutoML. This process explores a wide range of models, including RandomForest, StackEnsemble, XgBoost, LightBGM, SGD Classifier and etc. to efficiently train and select the best model. It uses cross validation splits to reduce model overfitting. The best model selected was the VotingEnsemble model which combined the predictions from other multiple classification models.
 
 ### AutoML model details and visualization
 
-[aml1]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/aml1.png)
+![aml1]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/aml1.png)
 
-[aml2]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/aml2.png)
+![aml2]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/aml2.png)
 
-[aml3]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/aml3.png)
+![aml3]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/aml3.png)
 
-[aml4]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/aml4.png)
+![aml4]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/aml4.png)
 
-[aml5]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/aml5.png)
+![aml5]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/aml5.png)
 
-[aml8]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/aml8.png)
+![aml8]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/aml8.png)
 
-[aml10]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/aml10.png)
+![aml10]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/aml10.png)
 
 ## Pipeline comparison
 *    The accuracy of AutoML (0.9166) is higher than the accuracy of HyperDrive (0.9099) by **0.0067 (0.67%) **. 
@@ -137,11 +137,11 @@ The process of machine learning model development is automated in AutoML. This p
 
 Below is the supported models for AutoML:
 
-[AutoMl supported models](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/automl_supported_models.png)
+![AutoMl supported models](https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/automl_supported_models.png)
 
 ## Proof of cluster clean up
 
-[Cluster cleanup]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/compute_cleanup.png)
+![Cluster cleanup]( https://github.com/eaamankwah/Optimizing-a-Machine-Learning-Pipeline-in-Azure/blob/main/screenshots/compute_cleanup.png)
 
 ## References
 
